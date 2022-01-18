@@ -1,23 +1,19 @@
 {
-  "name": "evenodd",
+  "name": "first-api",
   "version": "1.0.0",
-  "main": "evnodd.js",
+  "main": "dummy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon evnodd.js"
+    "test": "echo\"Error: no test specified\"&& exit 1",
+    "start": "nodemon dummy.js"
   },
-  "author": "",
+  "keywords": [],
+  "author": "SaurabhThakur",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheSigma1/node.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TheSigma1/node/issues"
-  },
-  "homepage": "https://github.com/TheSigma1/node#readme",
-  "description": "",
   "dependencies": {
-    "nodemon": "^2.0.15"
-  }
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "description": ""
 }
